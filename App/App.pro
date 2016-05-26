@@ -7,6 +7,8 @@
 QT       += core gui xml
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+QT += widgets
+DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x000000
 
 TARGET = App
 
